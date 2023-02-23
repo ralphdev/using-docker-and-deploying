@@ -8,4 +8,4 @@ root@cowsay:/# apt-get install -y cowsay fortune
 root@cowsay:/# /usr/games/fortune | /usr/games/cowsay
 ```
 
-![Cowsay](https://drive.google.com/file/d/16fJnv4MdMHlTKvK_MJo5KVzybLjSrmpW/view?usp=share_link)
+![alt](assets/cowsay.png)
