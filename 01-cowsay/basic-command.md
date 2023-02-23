@@ -32,7 +32,7 @@ ENTRYPOINT ["/usr/games/cowsay"]
 
 ```bash
 
-$ docker build -t test/cowsay-dockerfile .docker build -t test/cowsay-dockerfile .
+$ docker build -t test/cowsay-dockerfile .
 
 $ docker run test/cowsay-dockerfile "Moo"
 ```
