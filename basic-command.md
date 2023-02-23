@@ -1,0 +1,11 @@
+# CowSay
+
+```bash
+docker run -it --name cowsay --hostname cowsay debian bash
+
+root@cowsay:/# apt-get update
+root@cowsay:/# apt-get install -y cowsay fortune
+root@cowsay:/# /usr/games/fortune | /usr/games/cowsay
+```
+
+![Cowsay](https://drive.google.com/file/d/16fJnv4MdMHlTKvK_MJo5KVzybLjSrmpW/view?usp=share_link)
