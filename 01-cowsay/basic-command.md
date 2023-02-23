@@ -23,7 +23,7 @@ $ docker run test/cowsayimage /usr/games/cowsay "Moo"
 $ docker build -t test/cowsay-dockerfile .
 $ docker run test/cowsay-dockerfile /usr/games/cowsay "Moo"
 ```
-
+---
 ## Add ENTRYPOINT
 Add the following line to the bottom of the Dockerfile:
 ```bash
@@ -36,3 +36,15 @@ $ docker build -t test/cowsay-dockerfile .docker build -t test/cowsay-dockerfile
 
 $ docker run test/cowsay-dockerfile "Moo"
 ```
+---
+
+## Add entrypoint.sh
+Dockerfile
+```bash
+COPY entrypoint.sh /
+```
+
+`chmod +x entrypoint.sh`
+
+Run:
+`$ docker run test/cowsay-dockerfile Hello Moo`
