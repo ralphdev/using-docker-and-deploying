@@ -15,3 +15,11 @@ root@cowsay:/# /usr/games/fortune | /usr/games/cowsay
 ```bash
 $ docker commit cowsay test/cowsayimage
 $ docker run test/cowsayimage /usr/games/cowsay "Moo"
+```
+---
+# Dockerfile
+
+```bash
+$ docker build -t test/cowsay-dockerfile .
+$ docker run test/cowsay-dockerfile /usr/games/cowsay "Moo"
+```
