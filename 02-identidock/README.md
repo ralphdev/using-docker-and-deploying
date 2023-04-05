@@ -1,6 +1,6 @@
 <p align="center">
   <a href="./" target="blank"><img src="../assets/docker.png" width="200" alt="Nest Logo" /></a>&nbsp;&nbsp;&nbsp;
-  <a href="./" target="blank"><img src="../assets/flask.png" width="200" alt="Nest Logo" /></a>
+  <a href="./" target="blank"><img src="../assets/flask-logo.png" width="200" alt="Nest Logo" /></a>
 </p>
 
 ## Description
