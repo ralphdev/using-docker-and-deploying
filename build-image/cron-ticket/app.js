@@ -1,14 +1,8 @@
 
 const cron = require("node-cron");
 
-let times = 0;
-
-cron.schedule('1-59/5 * * * * *', () => {
-    
-    times++;
-    
-    console.log("Ticket multipols 5 segundos", times);
-})
+const { syncDB } = require("./tasks/sync-db");
 
 console.log("Inicio Rafael");
 
+cron.schedule('1-59/5 * * * * *', syncDB);
