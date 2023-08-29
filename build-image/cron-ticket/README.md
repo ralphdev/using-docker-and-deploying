@@ -1,5 +1,10 @@
 ## Buildx otras plataformas
 
+* **Creando mi Builder**
+```bash
+$ docker buildx create --name mybuilder --bootstrap --use
+```
+
 * **Listar plataformas**
 ```bash
 $ docker buildx ls
