@@ -1,4 +1,6 @@
-FROM node:current-alpine3.18
+#FROM --platform=linux/amd64 node:current-alpine3.18
+
+FROM --platform=$BUILDPLATFORM node:current-alpine3.18
 
 #cd app
 WORKDIR /app
